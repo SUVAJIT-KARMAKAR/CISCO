@@ -4,7 +4,7 @@
   gap: 40px;
   justify-content: center;
   overflow: hidden;
-  padding: 35px 120px 80px 100px;
+  padding: 35px 90px 80px 110px;
   background: rgb(168, 243, 255);
   background: radial-gradient(
     circle at 30% 60%,
@@ -21,7 +21,7 @@
 }
 
 .party__left-imageone {
-  margin-top: 108px;
+  margin-top: 90px;
   margin-right: 4px;
 }
 
