@@ -1,3 +1,4 @@
+/* FONTS */
 @font-face {
   font-family: 'CiscoSans';
   src: url('/fonts/CiscoSansTTThin.ttf') format('truetype');
@@ -103,7 +104,7 @@
   font-family: 'CiscoSans', sans-serif;
 }
 
-/* Root Variables */
+/* ROOT VARIABLES */
 :root {
   --color-white: #ffffff;
   --color-text: #18202f;
@@ -123,7 +124,7 @@
   padding: 0px;
 }
 
-/* Hero Section */
+/* HERO SECTION */
 .hero-section {
   background-color: var(--color-primary);
   color: var(--color-white);
@@ -205,8 +206,8 @@
   height: 20px;
 }
 
-/* Time line container */
 
+/* TIMELINE */
 .timeline {
   background: linear-gradient(
     107.26deg,
@@ -331,7 +332,7 @@
   border-radius: 50%;
 }
 
-/* Catalog Section */
+/* CATALOG */
 .catalog__content {
   display: flex;
   padding: 120px 120px 115px 120px;
@@ -415,8 +416,7 @@
   background: #fea800;
 }
 
-/* Sponsors Section */
-
+/* SPONSERS */
 .sponsors-section {
   background: linear-gradient(
     48.23deg,
@@ -449,8 +449,7 @@
   text-align: center;
 }
 
-/* Media Queries*/
-
+/* MEDIA */
 @media (min-width: 1400px) {
   .hero-section__content {
     height: clamp(700px, 50vh, 900px);
